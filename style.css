@@ -70,16 +70,15 @@ body{
     background-color: rgba(244, 244, 244, 0.8);    
 }
 .play{
-    width:10px;
+    width:12px;
     position: absolute;
     left:45px ;
-    bottom: 68px;
 }
 .info{
     width:20px;
     position: absolute;
     left:129px;
-    bottom: 63px;
+    bottom: 5px;
 }
 .hjk{
 
@@ -168,4 +167,160 @@ body{
     position: absolute;
     right: 30px;
 }
+
+/* Existing styles ... */
+
+@media (max-width:600px) and (min-width:320px){
+    body {
+        background-image: url(assets/Title-Image.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .div1 > ul {
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .div2 > ul {
+        margin-right: 0;
+    }
+
+    .container {
+        margin-left: 10px;
+        margin-top: 200px;
+    }
+
+    .RGB {
+        width: 15px;
+        height: 30px;
+    }
+
+    .Ma {
+        font-size: 5vmax;
+    }
+
+    .button1 {
+        width: 60px;
+    }
+
+    .button2 {
+        width: 100px;
+    }
+
+    .play {
+        left: 20px;
+        bottom: 68px;
+    }
+
+    .info {
+        left: 80px;
+        bottom: 63px;
+    }
+
+    .hjk {
+        margin-left: 10px;
+        margin-top: 40px;
+    }
+
+    .nmv {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .lk {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .bb {
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .qw {
+        position: static;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .aa,
+    .nn {
+        margin-left: 10px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .end {
+        margin-top: 60px;
+    }
+
+    .vv > ul,
+    .mm > ul {
+        margin-left: 10px;
+    }
+
+    .pp {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .mk {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .add {
+        right: 10px;
+    }
+    .dd{
+        display: none;
+    }
+    .div2{
+        width: 60%;
+        /* border: 1px solid blue; */
+        display: flex;
+    }
+    .play{
+       bottom: 42%;
+       left: 14px;
+    }
+    .info{
+        /* border:1px solid; */
+        bottom:41.4%;
+        left: 24%;
+    }
+    .mm{
+        margin-top: 20px;
+        display: grid;
+        grid-template-rows: repeat(1,40fr);
+        height: 500px;
+    }
+    .vv{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .vv>ul{
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+    }
+    .mm>ul>li{
+     
+        margin:5px;
+    }
+
+    .mm>ul {
+        color: #808080;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+}
+
 
